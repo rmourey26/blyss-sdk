@@ -4,7 +4,7 @@ import React, { ReactNode } from 'react';
 
 // This function gets called only on the first query
 async function setup(): Promise<Bucket> {
-  const client = new Client('<YOUR API KEY HERE>');
+  const client = new Client('sk-2de4444643ce40b99d1d0e191cd7cbc7');
 
   // Create the bucket
   const bucketName = 'contact-demo';
